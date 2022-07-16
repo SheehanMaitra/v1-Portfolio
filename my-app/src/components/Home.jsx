@@ -18,7 +18,7 @@ const Home = () => {
           building a porfolio of programs   .
         </p>
         <div>
-          <button className="text-[#F1F1E6] border-[2px] px-4 py-2 my-1 flex items-center">
+          <button className="text-[#CDA715] text-bold border-[#CDA715] border-[2px] px-4 py-2 my-1 flex items-center rounded hover:bg-[#CDA715] hover:bg-opacity-20">
             View Work <HiArrowNarrowRight />
           </button>
         </div>

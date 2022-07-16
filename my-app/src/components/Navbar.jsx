@@ -9,8 +9,8 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
   return (
     <div className="fixed w-full h-[70px] flex justify-between items-center px-4 bg-[#1A1D3D] text-[#F1F1E6]">
-      <div className="cursor-pointer">
-        <img src={Logo} alt="Logo Image" style={{ width: "60px" }} />
+      <div className="cursor-pointer border-2 px-2 py-[4px] mx-4 my-3 text-3xl text-[#CDA715] border-[#CDA715] hover:bg-[#CDA715] hover:bg-opacity-20" >
+        S
       </div>
       {/*Menu*/}
       <ul className="hidden md:flex">
