@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Sling as Hamburger } from "hamburger-react";
 import { FaLinkedinIn, FaGithubAlt, FaFileAlt } from "react-icons/fa";
-import Logo from "../assests/Logo.png";
 import Resume from "../assests/Resume.pdf";
 import { HiOutlineMail } from "react-icons/hi";
 const Navbar = () => {

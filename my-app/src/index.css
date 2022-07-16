@@ -1,19 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@font-face {
-    font-family: Calibre;
-    src: url('./assests/fonts/test-calibre-regular.woff2');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@layer base {
+  body {
+    @apply font-[Poppins];
+  }
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
 }
 
-@layer base{
-    body{
-        @apply font-[Poppins]
-    } 
-    li{
-        @apply px-4;
-        @apply cursor-pointer
-    }
+.link-underline {
+    border-bottom-width: 0;
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+    background-size: 0 1.5px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size .22s ease-in-out;
 }
 
+.link-underline-black {
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#CDA715, #CDA715)
+}
+
+.link-underline:hover {
+    background-size: 100% 1.5px;
+    background-position: 0 100%
+}
