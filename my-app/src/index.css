@@ -1,11 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&display=swap');
+
+@font-face {
+    font-family: Calibre;
+    src: url('./assests/fonts/test-calibre-regular.woff2');
+}
 
 @layer base{
     body{
-        @apply font-[Quicksand]
+        @apply font-[Calibre]
     } 
     li{
         @apply px-4;

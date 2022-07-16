@@ -37,11 +37,11 @@ const Navbar = () => {
         <li className="py-6 text-4xl">Contact</li>
       </ul>
       {/*Social Icons(Resume)*/}
-      <div className="hidden lg:flex fixed flex-col top-[60%] left-0">
+      <div className="hidden xl:flex fixed flex-col top-[60%] left-0">
         <ul>
-          <li className="w-[170px] h-[55px] flex justify-center items-center ml-[-110px] hover:ml-[-5px] duration-300 bg-[#0072b1]">
+          <li className="w-[175px] h-[55px] flex justify-center items-center ml-[-115px] hover:ml-[-5px] duration-300 bg-[#0072b1]">
             <a
-              className="flex justify-between items-center w-full text-[#F1F1E6] text-2xl"
+              className="flex justify-between items-center w-full text-[#F1F1E6] text-3xl"
               href="https://www.linkedin.com/in/sheehanmaitra/"
               target="_blank"
               rel="noreferrer"
@@ -49,9 +49,9 @@ const Navbar = () => {
               Linkedin <FaLinkedinIn size={30} />
             </a>
           </li>
-          <li className="w-[150px] h-[55px] flex justify-center items-center ml-[-90px] hover:ml-[-5px] duration-300 bg-[#171515]">
+          <li className="w-[155px] h-[55px] flex justify-center items-center ml-[-95px] hover:ml-[-5px] duration-300 bg-[#171515]">
             <a
-              className="flex justify-between items-center w-full text-[#F1F1E6] text-2xl"
+              className="flex justify-between items-center w-full text-[#F1F1E6] text-3xl"
               href="https://github.com/SheehanMaitra"
               target="_blank"
               rel="noreferrer"
@@ -59,19 +59,19 @@ const Navbar = () => {
               Github <FaGithubAlt size={30} />
             </a>
           </li>
-          <li className="w-[385px] h-[55px] flex justify-center items-center ml-[-325px] hover:ml-[-5px] duration-300 bg-[#00897C]">
+          <li className="w-[140px] h-[55px] flex justify-center items-center ml-[-80px] hover:ml-[-5px] duration-300 bg-[#00897C]">
             <a
-              className="flex justify-between items-center w-full text-[#F1F1E6] text-2xl"
+              className="flex justify-between items-center w-full text-[#F1F1E6] text-3xl"
               href="mailto:maitrasheehan@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
-              maitrasheehan@gmail.com <HiOutlineMail size={30} />
+              Gmail <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="w-[170px] h-[55px] flex justify-center items-center ml-[-110px] hover:ml-[-5px] duration-300 bg-[#BFBDE8]">
+          <li className="w-[170px] h-[55px] flex justify-center items-center ml-[-110px] hover:ml-[-5px] duration-300 bg-[#6F3E3E]">
             <a
-              className="flex justify-between items-center w-full text-[#F1F1E6] text-2xl"
+              className="flex justify-between items-center w-full text-[#F1F1E6] text-3xl"
               href={Resume}
               target="_blank"
               rel="noreferrer"
