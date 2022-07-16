@@ -1,8 +1,8 @@
 import React from 'react'
-const Skill = () => {
+const Experience = () => {
   return (
     <div>Skill</div>
   )
 }
 
-export default Skill
+export default Experience
