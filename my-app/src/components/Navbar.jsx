@@ -8,8 +8,8 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[70px] flex justify-between items-center px-4 bg-[#1A1D3D] text-[#F1F1E6]">
-      <div className="cursor-pointer border-2 px-2 py-[4px] mx-4 my-3 text-3xl text-[#CDA715] border-[#CDA715] hover:bg-[#CDA715] hover:bg-opacity-20" >
+    <div className="fixed w-full h-[70px] flex justify-between items-center px-4 bg-[#1A1D3D] text-[#F1F1E6] text-[15px]">
+      <div className="cursor-pointer border-2 px-2 py-[4px] mx-4 my-3 text-2xl text-[#CDA715] border-[#CDA715] hover:bg-[#CDA715] hover:bg-opacity-20" >
         S
       </div>
       {/*Menu*/}
@@ -39,9 +39,9 @@ const Navbar = () => {
       {/*Social Icons(Resume)*/}
       <div className="hidden xl:flex fixed flex-col top-[60%] left-0">
         <ul>
-          <li className="w-[175px] h-[55px] flex justify-center items-center ml-[-115px] hover:ml-[-5px] duration-300 bg-[#0072b1]">
+          <li className="w-[171px] h-[55px] flex justify-center items-center ml-[-111px] hover:ml-[-5px] duration-300 bg-[#0072b1]">
             <a
-              className="flex justify-between items-center w-full text-[#F1F1E6] text-3xl"
+              className="flex justify-between items-center w-full text-[#F1F1E6] text-2xl"
               href="https://www.linkedin.com/in/sheehanmaitra/"
               target="_blank"
               rel="noreferrer"
@@ -49,9 +49,9 @@ const Navbar = () => {
               Linkedin <FaLinkedinIn size={30} />
             </a>
           </li>
-          <li className="w-[155px] h-[55px] flex justify-center items-center ml-[-95px] hover:ml-[-5px] duration-300 bg-[#171515]">
+          <li className="w-[160px] h-[55px] flex justify-center items-center ml-[-100px] hover:ml-[-5px] duration-300 bg-[#171515]">
             <a
-              className="flex justify-between items-center w-full text-[#F1F1E6] text-3xl"
+              className="flex justify-between items-center w-full text-[#F1F1E6] text-2xl"
               href="https://github.com/SheehanMaitra"
               target="_blank"
               rel="noreferrer"
@@ -59,9 +59,9 @@ const Navbar = () => {
               Github <FaGithubAlt size={30} />
             </a>
           </li>
-          <li className="w-[140px] h-[55px] flex justify-center items-center ml-[-80px] hover:ml-[-5px] duration-300 bg-[#00897C]">
+          <li className="w-[147px] h-[55px] flex justify-center items-center ml-[-87px] hover:ml-[-5px] duration-300 bg-[#00897C]">
             <a
-              className="flex justify-between items-center w-full text-[#F1F1E6] text-3xl"
+              className="flex justify-between items-center w-full text-[#F1F1E6] text-2xl"
               href="mailto:maitrasheehan@gmail.com"
               target="_blank"
               rel="noreferrer"
@@ -69,9 +69,9 @@ const Navbar = () => {
               Gmail <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="w-[170px] h-[55px] flex justify-center items-center ml-[-110px] hover:ml-[-5px] duration-300 bg-[#6F3E3E]">
+          <li className="w-[175px] h-[55px] flex justify-center items-center ml-[-115px] hover:ml-[-5px] duration-300 bg-[#6F3E3E]">
             <a
-              className="flex justify-between items-center w-full text-[#F1F1E6] text-3xl"
+              className="flex justify-between items-center w-full text-[#F1F1E6] text-2xl"
               href={Resume}
               target="_blank"
               rel="noreferrer"
