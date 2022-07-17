@@ -22,10 +22,10 @@ const Home = () => {
               target="_blank"
               rel="noreferrer"
             >
-              chatham high school
+              Chatham High School
             </a>
           </span>{" "}
-          who is interested in web design and artificial intelligence.
+          and I am interested in web design and artificial intelligence.
           Currently, I am focused on building a porfolio of programs.
         </p>
         <div>

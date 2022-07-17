@@ -31,11 +31,12 @@ const About = () => {
               cupiditate accusamus suscipit possimus facere earum, omnis,
               expedita ullam maxime delectus nostrum dignissimos recusandae.
               Veniam tenetur quibusdam optio itaque!
-            </p>
+            </p>  
           </div>
-          <div>
+          <div className="group">
+          <span className="group-hover:translate-y-[-5px] group-hover:translate-x-[-5px] border-[3px] h-[345px] w-[250px] z-1 absolute mt-4 ml-[100px] rounded border-[#CDA715] duration-[250ms] ease-in"></span>
             <span class='tint'>
-            <img className="w-[250px]" src={PFP} alt="profilepicture" />
+            <img className="w-[250px] rounded z-2" src={PFP} alt="profilepicture" />
             </span>
           </div>
           <div></div>
