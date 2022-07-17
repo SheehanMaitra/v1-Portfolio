@@ -29,3 +29,27 @@
     background-size: 100% 1.5px;
     background-position: 0 100%
 }
+
+.tint {
+    position: relative;
+    width: 250px;
+    float: left;
+    margin-left: 75px;
+  }
+  
+  .tint:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .4;
+    background: #CDA715;
+    transition: background .1s linear;
+  }
+  .tint:hover:before {
+    background: none;
+  }
+
