@@ -11,7 +11,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="sticky w-full h-[70px] flex justify-between items-center px-4 bg-[#1A1D3D] text-[#F1F1E6] text-[15px]">
+    <div className="absolute w-full h-[70px] flex justify-between items-center px-4 bg-[#1A1D3D] text-[#F1F1E6] text-[15px]">
       <div className="cursor-pointer border-2 px-2 py-[4px] mx-4 my-3 text-2xl text-[#CDA715] border-[#CDA715] hover:bg-[#CDA715] hover:bg-opacity-20" >
         S
       </div>
@@ -44,20 +44,26 @@ const Navbar = () => {
       <div className="hidden xl:flex fixed flex-col top-[75%] left-0">
         <ul>
          <li className="text-[#F1F1E6] hover:-translate-y-[3px] hover:text-[#CDA715] duration-[300ms] flex justify-center items-center pb-[17px]">
-          <a href=""><RiGithubLine size={23} className=""/></a>
+          <a href="https://github.com/SheehanMaitra"
+              target="_blank"
+              rel="noreferrer"><RiGithubLine size={23} className=""/></a>
          </li>
          <li className="text-[#F1F1E6] hover:-translate-y-[3px] hover:text-[#CDA715] duration-[300ms] flex justify-center items-center pb-[17px]">
-          <a href=""><FiLinkedin size={23} className=""/></a>
+          <a href="https://www.linkedin.com/in/sheehanmaitra/"
+              target="_blank"
+              rel="noreferrer"><FiLinkedin size={23} className=""/></a>
          </li>
          <li className="text-[#F1F1E6] hover:-translate-y-[3px] hover:text-[#CDA715] duration-[300ms] flex justify-center items-center pb-[17px]">
-          <a href=""><ImFileText size={23} className=""/></a>
+          <a href={Resume}
+              target="_blank"
+              rel="noreferrer"><ImFileText size={23} className=""/></a>
          </li>
          <li className="cursor-auto flex justify-center items-center ">
          <div className="w-[1px] h-[20px] flex border-b-[200px]"></div>
          </li>
         </ul>
       </div>
-      <div className="hidden xl:flex fixed flex-col top-[75%] left-[100%]">
+      <div className="xl:flex fixed flex-col top-[75%] left-[100%]">
         <ul>
           <li className="text-[#F1F1E6] hover:-translate-y-[3px] hover:text-[#CDA715] duration-[300ms] flex justify-center items-center pb-[17px]">
             <a href="">maitrasheehan@gmail</a>
