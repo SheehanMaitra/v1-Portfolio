@@ -1,8 +1,10 @@
 import React from "react";
-import PFP from "../assests/pfp.png";
+import PFP from "../assests/pfp.png"; 
+import '../index.css'
 const About = () => {
   return (
     <div name="about" className="w-full h-screen bg-[#1A1D3D] text-[#BFBDE8]">
+      <link rel="stylesheet" href="index.css"/> 
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-left pb-8 pl-4">
@@ -33,10 +35,10 @@ const About = () => {
               Veniam tenetur quibusdam optio itaque!
             </p>  
           </div>
-          <div className="group">
-          <span className="group-hover:translate-y-[-5px] group-hover:translate-x-[-5px] border-[3px] h-[340px] w-[245px] z-1 absolute mt-4 ml-[100px] rounded border-[#CDA715] duration-[250ms] ease-in"></span>
+          <div class='pfp' className="group">
+          <span className="group-hover:translate-y-[-5px] group-hover:translate-x-[-5px] border-[3px] h-[340px] w-[245px] z-1 absolute mt-4 ml-[100px] rounded-xl border-[#CDA715] duration-[250ms] ease-in "></span>
             <span class='tint'>
-            <img className="w-[250px] rounded z-2" src={PFP} alt="profilepicture" />
+            <img className="w-[250px] rounded-xl" src={PFP} alt="profilepicture" />
             </span>
           </div>
           <div></div>

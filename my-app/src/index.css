@@ -35,7 +35,7 @@
     width: 250px;
     float: left;
     margin-left: 75px;
-    border-radius: 0.25rem;
+    ;
   }
   
   .tint:before {
@@ -47,10 +47,12 @@
     left: 0;
     right: 0;
     opacity: .35;
+    border-radius: 0.75rem;
     background: #CDA715;
-    transition: background .1s linear;
+    transition: background .3s ease-in;
   }
   .tint:hover:before {
     background: none;
   }
 
+  

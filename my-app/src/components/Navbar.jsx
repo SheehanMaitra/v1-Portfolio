@@ -3,14 +3,17 @@ import { Sling as Hamburger } from "hamburger-react";
 import { FaLinkedinIn, FaGithubAlt, FaFileAlt } from "react-icons/fa";
 import Resume from "../assests/Resume.pdf";
 import { HiOutlineMail } from "react-icons/hi";
+import '../index.css'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+
   return (
-    <div className="fixed w-full h-[70px] flex justify-between items-center px-4 bg-[#1A1D3D] text-[#F1F1E6] text-[15px]">
+    <div className="sticky w-full h-[70px] flex justify-between items-center px-4 bg-[#1A1D3D] text-[#F1F1E6] text-[15px]">
       <div className="cursor-pointer border-2 px-2 py-[4px] mx-4 my-3 text-2xl text-[#CDA715] border-[#CDA715] hover:bg-[#CDA715] hover:bg-opacity-20" >
         S
       </div>
+      <link rel="stylesheet" href="index.css" />
       {/*Menu*/}
       <ul className="hidden md:flex">
         <li>About</li>
