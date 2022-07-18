@@ -17,7 +17,7 @@ const Experience = () => {
           <div className="p-4 w-full h-[200px] grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
             <div
               class="python"
-              className="group shadow-md border-[1px] border-[#CDA715] rounded-xl shadow-[#CDA715] hover:scale-110 duration-[200ms] ease"
+              className="group shadow-lg border-[1px] border-[#CDA715] rounded-xl shadow-[#332f2f] hover:scale-110 duration-[200ms] ease"
             >
               <span className="group-hover:hidden duration-[200ms]">
                 <img
@@ -27,7 +27,10 @@ const Experience = () => {
                 />
                 <p>PYTHON</p>
               </span>
-              <p className="hidden group-hover:flex mx-auto py-[20px] text-[14px]">Beginner: Self taught from learning Java</p>
+               <div className="hidden absolute z-1 group-hover:flex bg-[#CDA715] h-3 mx-[20px] my-[60px] border-w-full border-[#BFBDE8] border-[2px] rounded-xl w-[25%]">
+                <span className='mt-4'>25%</span>
+               </div>
+              {/*<p className="hidden group-hover:flex mx-auto py-[20px] text-[14px]">Beginner: Self taught from learning Java</p>*/}
             </div>
             <div
               class="python"
