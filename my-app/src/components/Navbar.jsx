@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { Sling as Hamburger } from "hamburger-react";
-import { FaLinkedinIn, FaGithubAlt, FaFileAlt } from "react-icons/fa";
+import { FiLinkedin} from "react-icons/fi"
+import {RiGithubLine, RiLinkedinLine} from "react-icons/ri";
 import Resume from "../assests/Resume.pdf";
-import { HiOutlineMail } from "react-icons/hi";
+import {ImFileText} from "react-icons/im"
+import {HiOutlineMail} from "react-icons/hi";
 import '../index.css'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -39,9 +41,37 @@ const Navbar = () => {
         <li className="py-6 text-4xl">Contact</li>
       </ul>
       {/*Social Icons(Resume)*/}
-      <div className="hidden xl:flex fixed flex-col top-[60%] left-0">
+      <div className="hidden xl:flex fixed flex-col top-[75%] left-0">
         <ul>
-          <li className="w-[171px] h-[55px] flex justify-center items-center ml-[-111px] hover:ml-[-5px] duration-300 bg-[#0072b1]">
+         <li className="text-[#F1F1E6] hover:-translate-y-[3px] hover:text-[#CDA715] duration-[300ms] flex justify-center items-center pb-[17px]">
+          <a href=""><RiGithubLine size={23} className=""/></a>
+         </li>
+         <li className="text-[#F1F1E6] hover:-translate-y-[3px] hover:text-[#CDA715] duration-[300ms] flex justify-center items-center pb-[17px]">
+          <a href=""><FiLinkedin size={23} className=""/></a>
+         </li>
+         <li className="text-[#F1F1E6] hover:-translate-y-[3px] hover:text-[#CDA715] duration-[300ms] flex justify-center items-center pb-[17px]">
+          <a href=""><ImFileText size={23} className=""/></a>
+         </li>
+         <li className="cursor-auto flex justify-center items-center ">
+         <div className="w-[1px] h-[20px] flex border-b-[200px]"></div>
+         </li>
+        </ul>
+      </div>
+      <div className="hidden xl:flex fixed flex-col top-[75%] left-[100%]">
+        <ul>
+          <li className="text-[#F1F1E6] hover:-translate-y-[3px] hover:text-[#CDA715] duration-[300ms] flex justify-center items-center pb-[17px]">
+            <a href="">maitrasheehan@gmail</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;
+
+
+ {/*<li className="w-[171px] h-[55px] flex justify-center items-center ml-[-111px] hover:ml-[-5px] duration-300 bg-[#0072b1]">
             <a
               className="flex justify-between items-center w-full text-[#F1F1E6] text-2xl"
               href="https://www.linkedin.com/in/sheehanmaitra/"
@@ -80,11 +110,4 @@ const Navbar = () => {
             >
               Resume <FaFileAlt size={30} />
             </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  );
-};
-
-export default Navbar;
+      </li>*/}

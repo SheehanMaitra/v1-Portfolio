@@ -2,6 +2,9 @@ import React from "react";
 import "../index.css";
 import Python from "../assests/python-logo.png";
 import Html from "../assests/html-logo.png"
+import JavaScript from "../assests/js.png"
+import CSS from "../assests/css-3.png"
+import JAVA from "../assests/java.png"
 const Experience = () => {
   return (
     <div name="experience" className="w-full h-screen bg-[#1A1D3D] text-[#BFBDE8]">
@@ -9,15 +12,14 @@ const Experience = () => {
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
           <div>
-            <p className="text-4xl font-bold inline border-b-4 border-[#CDA715]">
+            <p className="text-4xl font-bold inline border-b-4 rounded-sm border-[#CDA715]">
               Experience
             </p>
             <p className="pt-4 font-bold">Current Technologies I am Working With:</p>
           </div>
           <div className="p-4 w-full h-[200px] grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
             <div
-              class="python"
-              className="group shadow-lg border-[1px] border-[#CDA715] rounded-xl shadow-[#332f2f] hover:scale-110 duration-[200ms] ease"
+              className="group shadow-md rounded-xl shadow-[#BFBDE8] hover:scale-110 duration-[200ms] ease"
             >
               <span className="group-hover:hidden duration-[200ms]">
                 <img
@@ -27,14 +29,10 @@ const Experience = () => {
                 />
                 <p>PYTHON</p>
               </span>
-               <div className="hidden absolute z-1 group-hover:flex bg-[#CDA715] h-3 mx-[20px] my-[60px] border-w-full border-[#BFBDE8] border-[2px] rounded-xl w-[25%]">
-                <span className='mt-4'>25%</span>
-               </div>
-              {/*<p className="hidden group-hover:flex mx-auto py-[20px] text-[14px]">Beginner: Self taught from learning Java</p>*/}
+              <p className="hidden group-hover:flex mx-auto py-[20px] text-[14px]">Beginner: Self taught from learning Java</p>
             </div>
             <div
-              class="python"
-              className="group shadow-md border-[1px] border-[#CDA715] rounded-xl shadow-[#CDA715] hover:scale-110 duration-[200ms] ease"
+              className="group shadow-md rounded-xl shadow-[#BFBDE8] hover:scale-110 duration-[200ms] ease"
             >
               <span className="group-hover:hidden duration-[200ms]">
                 <img
@@ -44,35 +42,46 @@ const Experience = () => {
                 />
                 <p>HTML</p>
               </span>
-              <p className="hidden group-hover:flex mx-auto py-[20px] text-[14px]">I self taught this language during quaritine and am able to code in beginner levels.</p>
+              <p className="hidden group-hover:flex mx-auto py-[20px] text-[14px]">Intermediate: Self taught because I was interested in web design and wanted to know how make websites.</p>
             </div>
             <div
-              class="python"
-              className="group shadow-md border-[1px] border-[#CDA715] rounded-xl shadow-[#CDA715] hover:scale-110 duration-[200ms] ease"
+              className="group shadow-md rounded-xl shadow-[#BFBDE8] hover:scale-110 duration-[200ms] ease"
             >
               <span className="group-hover:hidden duration-[200ms]">
                 <img
                   className="mt-5 w-20 mx-auto "
-                  src={Python}
-                  alt="Python IMG"
+                  src={JavaScript}
+                  alt="JavaScript IMG"
                 />
-                <p>PYTHON</p>
+                <p>JAVASCRIPT</p>
               </span>
-              <p className="hidden group-hover:flex mx-auto py-[20px] text-[14px]">I self taught this language during quaritine and am able to code in beginner levels.</p>
+              <p className="hidden group-hover:flex mx-auto py-[20px] text-[14px]">Beginner: Learned from Java and I am able to code a basic react website or small java script applications</p>
             </div>
             <div
-              class="python"
-              className="group shadow-md border-[1px] border-[#CDA715] rounded-xl shadow-[#CDA715] hover:scale-110 duration-[200ms] ease"
+              className="group shadow-md rounded-xl shadow-[#BFBDE8] hover:scale-110 duration-[200ms] ease"
             >
               <span className="group-hover:hidden duration-[200ms]">
                 <img
                   className="mt-5 w-20 mx-auto "
-                  src={Python}
-                  alt="Python IMG"
+                  src={CSS}
+                  alt="CSS IMG"
                 />
-                <p>PYTHON</p>
+                <p>CSS</p>
               </span>
-              <p className="hidden group-hover:flex mx-auto py-[20px] text-[14px]">I self taught this language during quaritine and am able to code in beginner levels.</p>
+              <p className="hidden group-hover:flex mx-auto py-[20px] text-[14px]">Intermediate: Learned through lots of trial and error to get the right styling. I learned this side by side with HTML</p>
+            </div>
+            <div
+              className="group shadow-md rounded-xl shadow-[#BFBDE8] hover:scale-110 duration-[200ms] ease"
+            >
+              <span className="group-hover:hidden duration-[200ms]">
+                <img
+                  className="mt-5 w-20 mx-auto "
+                  src={JAVA}
+                  alt="JAVA IMG"
+                />
+                <p>JAVA</p>
+              </span>
+              <p className="hidden group-hover:flex mx-auto py-[20px] text-[14px]">Intermediate: This the primary language my highschool uses, so I learned it from my teacher and through my school curriculum</p>
             </div>
 
           </div>
