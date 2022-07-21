@@ -13,43 +13,70 @@ const Navbar = () => {
   return (
     <div
       class="nav"
-      className="sticky w-full h-[95px] flex justify-between items-center px-4 bg-[#0a192f] text-[#8892b0] text-[13px]"
+      className="fixed w-full h-[95px] flex justify-between items-center px-4 bg-[#0a192f] text-[#8892b0] text-[14px] "
     >
       <link rel="stylesheet" href="index.css" />
-      <div className="cursor-pointer border-2 px-2 py-[4px] mx-4 my-3 text-2xl text-[#64ffda] border-[#64ffda] hover:bg-[#64ffda] hover:bg-opacity-20">
+      <div className="cursor-pointer border-2 px-2 py-[4px]  mx-4 my-3 text-2xl text-[#64ffda] border-[#64ffda] hover:bg-[#64ffda] hover:bg-opacity-20">
         S
       </div>
       {/*Menu*/}
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex md:mr-[73%]">
         <li>
-          <span className="text-[#64ffda]">I.</span> About
+          <span className="text-[#64ffda]">I.</span>
+          <span className="hover:text-[#64ffda] duration-300"> About</span>
         </li>
         <li>
-          <span className="text-[#64ffda]">II.</span> Experience
+          <span className="text-[#64ffda]">II.</span>
+          <span className="hover:text-[#64ffda] duration-300"> Present</span>
         </li>
         <li>
-          <span className="text-[#64ffda]">III.</span> Work
+          <span className="text-[#64ffda]">III.</span>
+          <span className="hover:text-[#64ffda] duration-300"> Projects</span>
         </li>
         <li>
-          <span className="text-[#64ffda]">IV.</span> Contact
+          <span className="text-[#64ffda]">IV.</span>
+          <span className="hover:text-[#64ffda] duration-300"> Contact</span>
         </li>
       </ul>
       {/*Hamburger*/}
-      <div onClick={handleClick} className="md:hidden z-10 ">
-        <Hamburger size={25} color="#F1F1E6" direction="left" />
+      <div onClick={handleClick} className="md:hidden fixed right-[5%] z-10 ">
+        <Hamburger size={25} color="#F1F1E6" direction="right" />
       </div>
       {/*Mobile-Menu*/}
       <ul
+        id="navmenu"
         className={
           !nav
-            ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] md:hidden flex flex-col justify-center items-center"
+            ? "translate-x-[100%] transition-transform ease"
+            : "fixed translate-x-[0%] transition-transform duration-[400ms] ease top-0 right-0 w-[35%] h-screen shadow-lg shadow-black bg-[#0a192f] md:hidden flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">About</li>
-        <li className="py-6 text-4xl">Experience</li>
-        <li className="py-6 text-4xl">Work</li>
-        <li className="py-6 text-4xl">Contact</li>
+        <li className="py-6 text-2xl hover:text-[#64ffda] duration-300 ">
+          <span className="text-[#64ffda] flex flex-col items-center justify-center text-[20px]">
+            I.
+          </span>{" "}
+          About
+        </li>
+        <li className="py-6 text-2xl hover:text-[#64ffda] duration-300">
+          <span className="text-[#64ffda] flex flex-col items-center justify-center text-[20px]">
+            II.
+          </span>{" "}
+          Experience
+        </li>
+        <li className="py-6 text-2xl hover:text-[#64ffda] duration-300">
+          {" "}
+          <span className="text-[#64ffda] flex flex-col items-center justify-center text-[20px]">
+            III.
+          </span>{" "}
+          Work
+        </li>
+        <li className="py-6 text-2xl hover:text-[#64ffda] duration-300">
+          {" "}
+          <span className="text-[#64ffda] flex flex-col items-center justify-center text-[20px]">
+            IV.
+          </span>{" "}
+          Contact
+        </li>
       </ul>
       {/*Social Icons(Resume)*/}
       <div className="hidden xl:flex fixed flex-col top-[65%] left-[1%]">

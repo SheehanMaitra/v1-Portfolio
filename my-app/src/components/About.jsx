@@ -45,27 +45,22 @@ const About = () => {
                 ▹<span className="text-[#ccd6f6]"> Python</span>
               </li>
               <li className="text-[#64ffda] font-bold">
-                ▹<span className="text-[#ccd6f6]"> Python</span>
+                ▹<span className="text-[#ccd6f6]"> React</span>
               </li>
               <li className="text-[#64ffda] font-bold">
-                ▹<span className="text-[#ccd6f6]"> Python</span>
+                ▹<span className="text-[#ccd6f6]"> Java</span>
               </li>
               <li className="text-[#64ffda] font-bold">
-                ▹<span className="text-[#ccd6f6]"> Python</span>
-              </li>
-              <li className="text-[#64ffda] font-bold">
-                ▹<span className="text-[#ccd6f6]"> Python</span>
+                ▹<span className="text-[#ccd6f6]"> Node.js</span>
               </li>
             </ul>
           </div>
-          <div class="pfp" className="">
-            <span class="tint">
-              <img
-                className="flex w-[250px] rounded-xl"
-                src={PFP}
-                alt="profilepicture"
-              />
-            </span>
+          <div className="pl-[100px]">
+            <img
+              className="flex w-[250px] rounded-xl "
+              src={PFP}
+              alt="profilepicture"
+            />
           </div>
         </div>
       </div>

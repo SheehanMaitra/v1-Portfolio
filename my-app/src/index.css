@@ -12,15 +12,7 @@
     @apply cursor-pointer;
   }
   ::-webkit-scrollbar {
-    width: 12px;
-  }
-  ::-webkit-scrollbar-thumb {
-    background-color: #495670;
-    border: 3px solid #0a192f;
-    border-radius: 10px;
-  }
-  ::-webkit-scrollbar-track {
-    background: #0a192f;
+    display: none;
   }
 }
 
@@ -42,28 +34,4 @@
 .link-underline:hover {
   background-size: 100% 1.5px;
   background-position: 0 100%;
-}
-
-.tint {
-  position: relative;
-  width: 250px;
-  float: left;
-  margin-left: 75px;
-}
-
-.tint:before {
-  content: "";
-  display: -webkit-flex;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0.3;
-  border-radius: 0.75rem;
-  background: #64ffda;
-  transition: background 0.3s ease-in;
-}
-.tint:hover:before {
-  background: none;
 }
