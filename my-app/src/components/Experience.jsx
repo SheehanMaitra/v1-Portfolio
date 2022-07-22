@@ -9,7 +9,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="w-full h-screen bg-[#0a192f] text-[#8892b0] pl-[250px] pb-[800px]"
+      className="w-full h-screen bg-[#0a192f] text-[#8892b0] pl-[250px] py-[100px]"
     >
       <link rel="stylesheet" href="index.css" />
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">

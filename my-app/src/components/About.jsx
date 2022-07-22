@@ -6,7 +6,7 @@ const About = () => {
     <div
       class="abo"
       name="about"
-      className="w-full h-screen bg-[#0a192f] text-[#8892b0] pl-[125px] pb-[150px]"
+      className="w-full h-screen bg-[#0a192f] text-[#8892b0] pl-[125px] pb-[450px] pt-[150px] [500px]:pt-[350px]"
     >
       <link rel="stylesheet" href="index.css" />
       <div className="flex flex-col justify-center items-center w-full h-full">
@@ -26,7 +26,7 @@ const About = () => {
               Hi. I'm Sheehan, nice to meet you. Feel free to take a look
               around.
             </p>
-            <p className="item-body py-6">
+            <p className="py-6">
               I am currently a senior interested in computer science. Growing
               up, I always wondered how computers worked and ran the internet.
               As I got older, I learned basic HTML and CSS and was able to make

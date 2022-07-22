@@ -13,14 +13,14 @@ const Navbar = () => {
   return (
     <div
       class="nav"
-      className="fixed w-full h-[95px] flex justify-between items-center px-4 bg-[#0a192f] text-[#8892b0] text-[14px] "
+      className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-[#8892b0] text-[16px] "
     >
       <link rel="stylesheet" href="index.css" />
       <div className="cursor-pointer border-2 px-2 py-[4px]  mx-4 my-3 text-2xl text-[#64ffda] border-[#64ffda] hover:bg-[#64ffda] hover:bg-opacity-20">
         S
       </div>
       {/*Menu*/}
-      <ul className="hidden md:flex md:mr-[73%]">
+      <ul className="hidden align-top md:flex flex-row ">
         <li>
           <span className="text-[#64ffda]">I.</span>
           <span className="hover:text-[#64ffda] duration-300"> About</span>
@@ -47,8 +47,8 @@ const Navbar = () => {
         id="navmenu"
         className={
           !nav
-            ? "translate-x-[100%] transition-transform ease"
-            : "fixed translate-x-[0%] transition-transform duration-[400ms] ease top-0 right-0 w-[35%] h-screen shadow-lg shadow-black bg-[#0a192f] md:hidden flex flex-col justify-center items-center"
+            ? "translate-x-[100%] duration-[110ms] ease-out top-0 right-0 h-screen flex flex-col justify-center items-center fixed"
+            : "fixed translate-x-[0%] backdrop-blur-[45px] transition-transform duration-[400ms] ease top-0 right-0 w-[35%] h-screen shadow-lg shadow-black bg-[#0a192f] md:hidden flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-2xl hover:text-[#64ffda] duration-300 ">
@@ -79,8 +79,11 @@ const Navbar = () => {
         </li>
       </ul>
       {/*Social Icons(Resume)*/}
-      <div className="hidden xl:flex fixed flex-col top-[65%] left-[1%]">
+      <div className="hidden xl:flex fixed flex-col top-[10%] left-[0%]">
         <ul>
+          <li className="cursor-auto flex justify-center items-center ">
+            <div className="w-[1px] flex border-t-[320px] mb-[15px] "></div>
+          </li>
           <li className="text-[#8892b0] hover:-translate-y-[3px] hover:text-[#64ffda] duration-[300ms] flex justify-center items-center pb-[17px]">
             <a
               href="https://github.com/SheehanMaitra"
@@ -114,12 +117,15 @@ const Navbar = () => {
             </a>
           </li>
           <li className="cursor-auto flex justify-center items-center ">
-            <div className="w-[1px] flex border-b-[220px]"></div>
+            <div className="w-[1px] flex border-b-[370px]"></div>
           </li>
         </ul>
       </div>
-      <div className="hidden xl:flex fixed flex-col  top-[69%] left-[92.5%]">
+      <div className="hidden xl:flex fixed rounded-xl flex-col top-[10%] left-[92.5%]">
         <ul>
+          <li className="cursor-auto flex justify-center items-center ">
+            <div className="w-[1px] flex border-t-[320px] mb-[100px] "></div>
+          </li>
           <li className="text-[#8892b0] hover:translate-x-[3px] hover:text-[#64ffda] duration-[300ms] flex justify-center items-center pb-[28px] ">
             <a
               className="text-[16px] rotate-90 mb-[70px]"
@@ -131,7 +137,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className="cursor-auto flex justify-center items-center ">
-            <div className="w-[1px] flex border-b-[220px]"></div>
+            <div className="w-[1px] rounded-xl flex border-b-[320px]"></div>
           </li>
         </ul>
       </div>
