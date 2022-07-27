@@ -28,7 +28,7 @@ const Home = () => {
           and I am interested in web design and artificial intelligence.
           Currently, I am focused on building a porfolio of programs.
         </p>
-        <div>
+        <div className="mb-[100px]">
           <button className="text-[#64ffda] group text-bold border-[#64ffda] border-[2px] px-4 py-2 my-1 flex items-center rounded-xl hover:bg-[#64ffda] hover:bg-opacity-20">
             View Work
             <span className="group-hover:rotate-90 group-hover:translate-x-2 group-hover:translate-y-[-5px] duration-150">

@@ -22,19 +22,19 @@ const Navbar = () => {
       {/*Menu*/}
       <ul className="hidden align-top md:flex flex-row ">
         <li>
-          <span className="text-[#64ffda]">I.</span>
+          <span className="text-[#64ffda]">01.</span>
           <span className="hover:text-[#64ffda] duration-300"> About</span>
         </li>
         <li>
-          <span className="text-[#64ffda]">II.</span>
+          <span className="text-[#64ffda]">02.</span>
           <span className="hover:text-[#64ffda] duration-300"> Present</span>
         </li>
         <li>
-          <span className="text-[#64ffda]">III.</span>
+          <span className="text-[#64ffda]">03.</span>
           <span className="hover:text-[#64ffda] duration-300"> Projects</span>
         </li>
         <li>
-          <span className="text-[#64ffda]">IV.</span>
+          <span className="text-[#64ffda]">04.</span>
           <span className="hover:text-[#64ffda] duration-300"> Contact</span>
         </li>
       </ul>
@@ -79,10 +79,10 @@ const Navbar = () => {
         </li>
       </ul>
       {/*Social Icons(Resume)*/}
-      <div className="hidden xl:flex fixed flex-col top-[10%] left-[0%]">
+      <div className="hidden xl:flex fixed flex-col top-[25%] left-[5px]">
         <ul>
           <li className="cursor-auto flex justify-center items-center ">
-            <div className="w-[1px] flex border-t-[320px] mb-[15px] "></div>
+            <div className="w-[2px] flex border-t-[170px] mb-[15px] "></div>
           </li>
           <li className="text-[#8892b0] hover:-translate-y-[3px] hover:text-[#64ffda] duration-[300ms] flex justify-center items-center pb-[17px]">
             <a
@@ -90,7 +90,7 @@ const Navbar = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <RiGithubLine size={23} className="" />
+              <RiGithubLine size={25} className="" />
             </a>
           </li>
           <li className="text-[#8892b0] hover:-translate-y-[3px] hover:text-[#64ffda] duration-[300ms] flex justify-center items-center pb-[17px]">
@@ -99,12 +99,12 @@ const Navbar = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <FiLinkedin size={23} className="" />
+              <FiLinkedin size={25} className="" />
             </a>
           </li>
           <li className="text-[#8892b0] hover:-translate-y-[3px] hover:text-[#64ffda] duration-[300ms] flex justify-center items-center pb-[17px]">
             <a href={Resume} target="_blank" rel="noreferrer">
-              <ImFileText size={23} className="" />
+              <ImFileText size={25} className="" />
             </a>
           </li>
           <li className="text-[#8892b0] hover:-translate-y-[3px] hover:text-[#64ffda] duration-[300ms] flex justify-center items-center pb-[17px] ">
@@ -113,31 +113,11 @@ const Navbar = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <HiOutlineMail size={23} />
+              <HiOutlineMail size={25} />
             </a>
           </li>
           <li className="cursor-auto flex justify-center items-center ">
-            <div className="w-[1px] flex border-b-[370px]"></div>
-          </li>
-        </ul>
-      </div>
-      <div className="hidden xl:flex fixed rounded-xl flex-col top-[10%] left-[92.5%]">
-        <ul>
-          <li className="cursor-auto flex justify-center items-center ">
-            <div className="w-[1px] flex border-t-[320px] mb-[100px] "></div>
-          </li>
-          <li className="text-[#8892b0] hover:translate-x-[3px] hover:text-[#64ffda] duration-[300ms] flex justify-center items-center pb-[28px] ">
-            <a
-              className="text-[16px] rotate-90 mb-[70px]"
-              href="mailto:maitrasheehan@gmail.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              maitrasheehan@gmail
-            </a>
-          </li>
-          <li className="cursor-auto flex justify-center items-center ">
-            <div className="w-[1px] rounded-xl flex border-b-[320px]"></div>
+            <div className="w-[2px] flex border-b-[170px]"></div>
           </li>
         </ul>
       </div>

@@ -6,7 +6,7 @@ const About = () => {
     <div
       class="abo"
       name="about"
-      className="w-full h-screen bg-[#0a192f] text-[#8892b0] pl-[125px] pb-[450px] pt-[150px] [500px]:pt-[350px]"
+      className="w-full h-screen bg-[#0a192f] text-[#8892b0] pl-[125px] pb-[450px] pt-[200px] [500px]:pt-[350px]"
     >
       <link rel="stylesheet" href="index.css" />
       <div className="flex flex-col justify-center items-center w-full h-full">
