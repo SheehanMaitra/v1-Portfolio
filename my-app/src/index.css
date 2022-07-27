@@ -1,11 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 
 @layer base {
   body {
-    font-family: "Work Sans", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
   }
   li {
     @apply px-4;
@@ -13,6 +13,9 @@
   }
   ::-webkit-scrollbar {
     display: none;
+  }
+  #nav {
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   }
 }
 

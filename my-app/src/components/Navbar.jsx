@@ -12,8 +12,8 @@ const Navbar = () => {
 
   return (
     <div
-      class="nav"
-      className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-[#8892b0] text-[16px] "
+      id="nav"
+      className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-[#8892b0] text-[14px] "
     >
       <link rel="stylesheet" href="index.css" />
       <div className="cursor-pointer border-2 px-2 py-[4px]  mx-4 my-3 text-2xl text-[#64ffda] border-[#64ffda] hover:bg-[#64ffda] hover:bg-opacity-20">
@@ -23,19 +23,31 @@ const Navbar = () => {
       <ul className="hidden align-top md:flex flex-row ">
         <li>
           <span className="text-[#64ffda]">01.</span>
-          <span className="hover:text-[#64ffda] duration-300"> About</span>
+          <span className="hover:text-[#64ffda] font-bold duration-300">
+            {" "}
+            About
+          </span>
         </li>
         <li>
           <span className="text-[#64ffda]">02.</span>
-          <span className="hover:text-[#64ffda] duration-300"> Present</span>
+          <span className="hover:text-[#64ffda] font-bold duration-300">
+            {" "}
+            Present
+          </span>
         </li>
         <li>
           <span className="text-[#64ffda]">03.</span>
-          <span className="hover:text-[#64ffda] duration-300"> Projects</span>
+          <span className="hover:text-[#64ffda] font-bold duration-300">
+            {" "}
+            Projects
+          </span>
         </li>
         <li>
           <span className="text-[#64ffda]">04.</span>
-          <span className="hover:text-[#64ffda] duration-300"> Contact</span>
+          <span className="hover:text-[#64ffda] font-bold duration-300">
+            {" "}
+            Contact
+          </span>
         </li>
       </ul>
       {/*Hamburger*/}
