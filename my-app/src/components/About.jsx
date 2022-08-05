@@ -4,35 +4,38 @@ import "../index.css";
 const About = () => {
   return (
     <div
-      class="abo"
       name="about"
-      className="w-full h-screen bg-[#0a192f] text-[#8892b0] pl-[125px] pb-[450px] pt-[200px] [500px]:pt-[350px]"
+      className="w-full h-screen bg-[#0a192f] text-[#8892b0] pt-[150px] sm:pb-[300px] py-[50px]"
     >
       <link rel="stylesheet" href="index.css" />
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-left pb-8 pl-4">
-            <span className="text-4xl font-bold inline text-[#64ffda]">
-              I.{" "}
+            <span
+              id="num"
+              className="text-2xl sm:text-4xl font-bold inline text-[#64ffda]"
+            >
+              01.{""}
             </span>
-            <span> </span>
-            <p className="text-[#ccd6f6] text-4xl font-bold inline">About Me</p>
+            <span></span>
+            <p className="text-[#ccd6f6] text-2xl sm:text-4xl font-bold inline">
+              About Me
+            </p>
           </div>
           <div></div>
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 px-3">
           <div>
-            <p className=" text-[#ccd6f6] sm:text-left text-4xl font-bold">
-              Hi. I'm Sheehan, nice to meet you. Feel free to take a look
-              around.
+            <p className=" text-[#ccd6f6] text-2xl sm:text-left sm:text-4xl font-bold">
+              Hey! I am Sheehan. Nice to meet you. Explore this page to know
+              more about me!
             </p>
             <p className="py-6">
               I am currently a senior interested in computer science. Growing
-              up, I always wondered how computers worked and ran the internet.
-              As I got older, I learned basic HTML and CSS and was able to make
-              my first webpage. It was a lot of trial and error and it did not
-              look the best. I learned from my mistakes and was able to learn
-              more and more code on my own and throught my school teachers.
+              up, I always wondered how computers worked. At the age of 12, I
+              self taught myself HTML and CSS. I was able to make my first
+              webpage as a simple project. It was not my best work. Now, I am
+              able to make basic react.js websites.
             </p>
             <p className="item-body py-1">
               Today, I focus on two main areas of computer science. One of which
@@ -40,24 +43,33 @@ const About = () => {
               Self-teaching is my main method of learning and I hope to learn
               more from peers, university and through myself{" "}
             </p>
-            <ul className="cursor-auto">
-              <li className="text-[#64ffda] font-bold">
-                ▹<span className="text-[#ccd6f6]"> Python</span>
-              </li>
-              <li className="text-[#64ffda] font-bold">
+
+            <p className="py-4 text-lg font-bold ">
+              Current Techonologies I am working with:{" "}
+            </p>
+            <ul className="grid grid-cols-4 pb-[2.3rem]">
+              <div>
+                <li className="text-[#64ffda] font-bold cursor-default">
+                  ▹<span className="text-[#ccd6f6]"> Python</span>
+                </li>
+              </div>
+              <div></div>
+              <li className="text-[#64ffda] font-bold cursor-default">
                 ▹<span className="text-[#ccd6f6]"> React</span>
               </li>
-              <li className="text-[#64ffda] font-bold">
+              <div></div>
+              <li className="text-[#64ffda] font-bold cursor-default">
                 ▹<span className="text-[#ccd6f6]"> Java</span>
               </li>
-              <li className="text-[#64ffda] font-bold">
+              <div></div>
+              <li className="text-[#64ffda] font-bold cursor-default">
                 ▹<span className="text-[#ccd6f6]"> Node.js</span>
               </li>
             </ul>
           </div>
-          <div className="pl-[100px]">
+          <div className="pl-[4rem]">
             <img
-              className="flex w-[250px] rounded-xl "
+              className="flex w-[250px] rounded-lg "
               src={PFP}
               alt="profilepicture"
             />
