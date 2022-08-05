@@ -1,11 +1,11 @@
 import React from "react";
-import PFP from "../assests/pfp.png";
+import PFP from "../assets/pfp.png";
 import "../index.css";
 const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-[#0a192f] text-[#8892b0] pt-[150px] sm:pb-[300px] py-[50px]"
+      className="w-full h-screen bg-[#0a192f] text-[#8892b0] pt-[10rem] sm:py-[25vh]"
     >
       <link rel="stylesheet" href="index.css" />
       <div className="flex flex-col justify-center items-center w-full h-full">
@@ -49,25 +49,25 @@ const About = () => {
             </p>
             <ul className="grid grid-cols-4 pb-[2.3rem]">
               <div>
-                <li className="text-[#64ffda] font-bold cursor-default">
-                  ▹<span className="text-[#ccd6f6]"> Python</span>
+                <li className="text-[#64ffda] text-[13px] sm:text-[1em] font-bold cursor-default">
+                  ▹<span className="text-[#ccd6f6] "> Python</span>
                 </li>
               </div>
               <div></div>
-              <li className="text-[#64ffda] font-bold cursor-default">
-                ▹<span className="text-[#ccd6f6]"> React</span>
+              <li className="text-[#64ffda] text-[13px] sm:text-[1em] font-bold cursor-default">
+                ▹<span className="text-[#ccd6f6]"> React.js</span>
               </li>
               <div></div>
-              <li className="text-[#64ffda] font-bold cursor-default">
+              <li className="text-[#64ffda] text-[13px] sm:text-[1em] font-bold cursor-default">
                 ▹<span className="text-[#ccd6f6]"> Java</span>
               </li>
               <div></div>
-              <li className="text-[#64ffda] font-bold cursor-default">
-                ▹<span className="text-[#ccd6f6]"> Node.js</span>
+              <li className="text-[#64ffda] text-[13px] sm:text-[1em] font-bold cursor-default">
+                ▹<span className="text-[#ccd6f6] "> Node.js</span>
               </li>
             </ul>
           </div>
-          <div className="pl-[4rem]">
+          <div className="pl-[4rem] pt-[5vh]">
             <img
               className="flex w-[250px] rounded-lg "
               src={PFP}

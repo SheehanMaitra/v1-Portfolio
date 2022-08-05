@@ -97,9 +97,9 @@ const Navbar = () => {
         </li>
       </ul>
       {/*Social Icons(Resume)*/}
-      <div className="hidden xl:flex fixed flex-col top-[75%] left-[5px]">
+      <div className="hidden xl:flex fixed flex-col top-[75%]">
         <ul>
-          <li className="text-[#8892b0] hover:-translate-y-[3px] hover:text-[#64ffda] duration-[300ms] flex justify-center items-center pb-[17px]">
+          <li className="text-[#8892b0] hover:-translate-y-[3px] hover:text-[#64ffda] duration-[450ms] flex justify-center items-center pb-[17px]">
             <a
               href="https://github.com/SheehanMaitra"
               target="_blank"
@@ -108,7 +108,7 @@ const Navbar = () => {
               <RiGithubLine size={25} className="" />
             </a>
           </li>
-          <li className="text-[#8892b0] hover:-translate-y-[3px] hover:text-[#64ffda] duration-[300ms] flex justify-center items-center pb-[17px]">
+          <li className="text-[#8892b0] hover:-translate-y-[3px] hover:text-[#64ffda] duration-[450ms] flex justify-center items-center pb-[17px]">
             <a
               href="https://www.linkedin.com/in/sheehanmaitra/"
               target="_blank"
@@ -118,7 +118,7 @@ const Navbar = () => {
             </a>
           </li>
 
-          <li className="text-[#8892b0] hover:-translate-y-[3px] hover:text-[#64ffda] duration-[300ms] flex justify-center items-center pb-[17px] ">
+          <li className="text-[#8892b0] hover:-translate-y-[3px] hover:text-[#64ffda] duration-[450ms] flex justify-center items-center pb-[17px] ">
             <a
               href="mailto:maitrasheehan@gmail.com"
               target="_blank"
