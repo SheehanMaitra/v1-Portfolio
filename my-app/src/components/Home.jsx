@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f]">
       <link rel="stylesheet" href="./index.css" />
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full py-[60vh]">
+      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full py-[30vh]">
         <p className="text-[#64ffda] text-[20px] ">Hi, my name is</p>
         <h1 className="text-5xl md:text-7xl font-bold text-[#ccd6f6] py-3 pt-[1.5rem]">
           Sheehan Maitra.

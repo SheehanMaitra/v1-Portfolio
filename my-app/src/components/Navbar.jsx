@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div
       id="nav"
-      className="fixed w-full h-[75px] flex justify-between items-center px-4 bg-[#0a192f] text-[#8892b0] text-[14px] "
+      className="sticky w-full h-[75px] flex justify-between items-center px-4 bg-[#0a192f] text-[#8892b0] text-[14px]"
     >
       <link rel="stylesheet" href="index.css" />
       <div className="cursor-pointer border-2 px-2 py-[4px] mx-4 my-3 text-2xl text-[#64ffda] border-[#64ffda] hover:bg-[#64ffda] hover:bg-opacity-20">
@@ -97,7 +97,7 @@ const Navbar = () => {
         </li>
       </ul>
       {/*Social Icons(Resume)*/}
-      <div className="hidden xl:flex fixed flex-col top-[75%]">
+      <div className="hidden xl:flex fixed flex-col top-[75%] left-3">
         <ul>
           <li className="text-[#8892b0] hover:-translate-y-[3px] hover:text-[#64ffda] duration-[450ms] flex justify-center items-center pb-[17px]">
             <a
