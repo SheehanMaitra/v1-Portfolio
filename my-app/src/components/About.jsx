@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-[#0a192f] text-[#8892b0] pt-[10rem] sm:py-[25vh]"
+      className="w-full h-screen bg-[#2C3639] text-[#54797a] pt-[1rem] sm:py-[25vh]"
     >
       <link rel="stylesheet" href="index.css" />
       <div className="flex flex-col justify-center items-center w-full h-full">
@@ -13,12 +13,12 @@ const About = () => {
           <div className="sm:text-left pb-8 pl-4">
             <span
               id="num"
-              className="text-2xl sm:text-4xl font-bold inline text-[#64ffda]"
+              className="text-2xl sm:text-4xl font-bold inline text-[#A27B5C]"
             >
               01.{""}
             </span>
             <span></span>
-            <p className="text-[#ccd6f6] text-2xl sm:text-4xl font-bold inline">
+            <p className="text-[#DCD7C9] text-2xl sm:text-4xl font-bold inline">
               About Me
             </p>
           </div>
@@ -26,7 +26,7 @@ const About = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 px-3">
           <div>
-            <p className=" text-[#ccd6f6] text-2xl sm:text-left sm:text-4xl font-bold">
+            <p className=" text-[#DCD7C9] text-2xl sm:text-left sm:text-4xl font-bold">
               Hey! I am Sheehan. Nice to meet you. Explore this page to know
               more about me!
             </p>
@@ -44,26 +44,26 @@ const About = () => {
               more from peers, university and through myself{" "}
             </p>
 
-            <p className="py-4 text-lg font-bold ">
+            <p className="py-4 text-lg font-bold text-[#DCD7C9]">
               Current Techonologies I am working with:{" "}
             </p>
             <ul className="grid grid-cols-4 pb-[2.3rem]">
               <div>
-                <li className="text-[#64ffda] text-[13px] sm:text-[1em] font-bold cursor-default">
-                  ▹<span className="text-[#ccd6f6] "> Python</span>
+                <li className="text-[#A27B5C] text-[13px] sm:text-[1em] cursor-default">
+                  ▹<span className="text-[#DCD7C9] "> Python</span>
                 </li>
               </div>
               <div></div>
-              <li className="text-[#64ffda] text-[13px] sm:text-[1em] font-bold cursor-default">
-                ▹<span className="text-[#ccd6f6]"> React.js</span>
+              <li className="text-[#A27B5C] text-[13px] sm:text-[1em] cursor-default">
+                ▹<span className="text-[#DCD7C9]"> React.js</span>
               </li>
               <div></div>
-              <li className="text-[#64ffda] text-[13px] sm:text-[1em] font-bold cursor-default">
-                ▹<span className="text-[#ccd6f6]"> Java</span>
+              <li className="text-[#A27B5C] text-[13px] sm:text-[1em] cursor-default">
+                ▹<span className="text-[#DCD7C9]"> Java</span>
               </li>
               <div></div>
-              <li className="text-[#64ffda] text-[13px] sm:text-[1em] font-bold cursor-default">
-                ▹<span className="text-[#ccd6f6] "> Node.js</span>
+              <li className="text-[#A27B5C] text-[13px] sm:text-[1em] cursor-default">
+                ▹<span className="text-[#DCD7C9] "> Node.js</span>
               </li>
             </ul>
           </div>
