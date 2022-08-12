@@ -4,6 +4,7 @@ import { FiLinkedin } from "react-icons/fi";
 import { RiGithubLine } from "react-icons/ri";
 import { HiOutlineMail } from "react-icons/hi";
 import "../index.css";
+import { Link } from "react-scroll";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
@@ -11,42 +12,55 @@ const Navbar = () => {
   return (
     <div
       id="nav"
-      className="absolute w-full h-[75px] flex justify-between items-center px-4 bg-[#2C3639] text-[#DCD7C9] text-[14px]"
+      className="fixed w-full h-[75px] flex justify-between items-center px-4 bg-[#2C3639] text-[#DCD7C9] text-[14px]"
     >
       <link rel="stylesheet" href="index.css" />
-      <div className="cursor-pointer border-2 px-2 py-[4px] mx-4 my-3 text-2xl text-[#A27B5C] border-[#A27B5C] hover:bg-[#A27B5C] hover:bg-opacity-20">
-        S
-      </div>
+      <Link to='home' smooth={true} duration={400}>
+        <div className="cursor-pointer border-2 px-2 py-[4px] mx-4 my-3 text-2xl text-[#A27B5C] border-[#A27B5C] hover:bg-[#A27B5C] hover:bg-opacity-20">
+          S
+        </div>
+      </Link>
       {/*Menu*/}
+
       <ul className="hidden align-top md:flex flex-row ">
+
         <li>
           <span className="text-[#A27B5C]">01.</span>
-          <span className="hover:text-[#A27B5C] font-bold duration-300">
-            {" "}
-            About
-          </span>
+          <Link to="about" smooth={true} offset={20} duration={400}>
+            <span className="hover:text-[#A27B5C] font-bold duration-300">
+              {" "}
+              About
+            </span>
+          </Link>
         </li>
         <li>
           <span className="text-[#A27B5C]">02.</span>
-          <span className="hover:text-[#A27B5C] font-bold duration-300">
-            {" "}
-            Experience
-          </span>
+          <Link to="experience" smooth={true} offset={-150} duration={400}>
+            <span className="hover:text-[#A27B5C] font-bold duration-300">
+              {" "}
+              Experience
+            </span>
+          </Link>
         </li>
         <li>
-          <span className="text-[#A27B5C]">03.</span>
-          <span className="hover:text-[#A27B5C] font-bold duration-300">
-            {" "}
-            Projects
-          </span>
+          <Link to="work" smooth={true} offset={-100} duration={400}>
+            <span className="text-[#A27B5C]">03.</span>
+            <span className="hover:text-[#A27B5C] font-bold duration-300">
+              {" "}
+              Projects
+            </span>
+          </Link>
         </li>
         <li>
-          <span className="text-[#A27B5C]">04.</span>
-          <span className="hover:text-[#A27B5C] font-bold duration-300">
-            {" "}
-            Contact
-          </span>
+          <Link to="contact" smooth={true} offset={20} duration={400}>
+            <span className="text-[#A27B5C]">04.</span>
+            <span className="hover:text-[#A27B5C] font-bold duration-300">
+              {" "}
+              Contact
+            </span>
+          </Link>
         </li>
+
       </ul>
       {/*Hamburger*/}
       <div onClick={handleClick} className="md:hidden fixed right-[3%] z-10 ">
@@ -65,35 +79,43 @@ const Navbar = () => {
           <span className="text-[#A27B5C] flex flex-col items-center justify-center text-[20px]">
             01.
           </span>{" "}
-          <span className="font-bold hover:text-[#A27B5C] duration-300">
-            About
-          </span>
+          <Link onClick={handleClick} to="about" smooth={true} duration={400}>
+            <span className="font-bold hover:text-[#A27B5C] duration-300">
+              About
+            </span>
+          </Link>
         </li>
         <li className="py-6 text-2xl ">
           <span className="text-[#A27B5C] flex flex-col items-center justify-center text-[20px]">
             02.
           </span>{" "}
-          <span className="font-bold hover:text-[#A27B5C] duration-300">
-            Present
-          </span>
+          <Link onClick={handleClick} to="experience" smooth={true} duration={400}>
+            <span className="font-bold hover:text-[#A27B5C] duration-300">
+              Experience
+            </span>
+          </Link>
         </li>
         <li className="py-6 text-2xl">
           {" "}
           <span className="text-[#A27B5C] flex flex-col items-center justify-center text-[20px]">
             03.
           </span>{" "}
-          <span className="font-bold hover:text-[#A27B5C] duration-300">
-            Work
-          </span>
+          <Link onClick={handleClick} to="work" smooth={true} duration={400}>
+            <span className="font-bold hover:text-[#A27B5C] duration-300">
+              Projects
+            </span>
+          </Link>
         </li>
         <li className="py-6 text-2xl">
           {" "}
           <span className="text-[#A27B5C] flex flex-col items-center justify-center text-[20px]">
             04.
           </span>{" "}
-          <span className="hover:text-[#A27B5C] duration-300 font-bold">
-            Contact
-          </span>
+          <Link onClick={handleClick} to="contact" smooth={true} duration={400}>
+            <span className="hover:text-[#A27B5C] duration-300 font-bold">
+              Contact
+            </span>
+          </Link>
         </li>
       </ul>
       {/*Social Icons(Resume)*/}
@@ -132,7 +154,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </div >
   );
 };
 

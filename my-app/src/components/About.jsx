@@ -4,8 +4,8 @@ import "../index.css";
 const About = () => {
   return (
     <div
-      name="about"
-      className="w-full h-screen bg-[#2C3639] text-[#54797a] pt-[1rem] sm:py-[25vh]"
+      id="about"
+      className="w-full h-screen bg-[#2C3639] text-[#BECACE] pt-[1rem] sm:py-[25vh]"
     >
       <link rel="stylesheet" href="index.css" />
       <div className="flex flex-col justify-center items-center w-full h-full">
@@ -13,12 +13,12 @@ const About = () => {
           <div className="sm:text-left pb-8 pl-4">
             <span
               id="num"
-              className="text-2xl sm:text-4xl font-bold inline text-[#A27B5C]"
+              className="text-xl sm:text-3xl font-bold inline text-[#A27B5C]"
             >
               01.{""}
             </span>
-            <span></span>
-            <p className="text-[#DCD7C9] text-2xl sm:text-4xl font-bold inline">
+            <span> </span>
+            <p className="text-[#DCD7C9] text-xl sm:text-3xl font-bold inline">
               About Me
             </p>
           </div>
@@ -26,18 +26,18 @@ const About = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 px-3">
           <div>
-            <p className=" text-[#DCD7C9] text-2xl sm:text-left sm:text-4xl font-bold">
+            <p className=" text-[#DCD7C9] text-xl sm:text-left sm:text-3xl font-bold">
               Hey! I am Sheehan. Nice to meet you. Explore this page to know
               more about me!
             </p>
-            <p className="py-6">
+            <p className="text-[16px] py-6">
               I am currently a senior interested in computer science. Growing
               up, I always wondered how computers worked. At the age of 12, I
               self taught myself HTML and CSS. I was able to make my first
               webpage as a simple project. It was not my best work. Now, I am
               able to make basic react.js websites.
             </p>
-            <p className="item-body py-1">
+            <p className="text-[16px] py-1">
               Today, I focus on two main areas of computer science. One of which
               is artificial intelligence and the other is web design.
               Self-teaching is my main method of learning and I hope to learn

@@ -3,22 +3,22 @@ import "../index.css";
 const Experience = () => {
   return (
     <div
-      name="experience"
-      className="w-full h-screen bg-[#2C3639] text-[#54797a] pt-[10rem] sm:pb-[45vh] sm:pl-[5vw]"
+      id="experience"
+      className="w-full h-screen bg-[#2C3639] text-[#BECACE] pt-[10rem] sm:pb-[45vh] sm:pl-[5vw]"
     >
       <link rel="stylesheet" href="index.css" />
       <div className="max-w-[1000px] mx-auto p-3 flex flex-col justify-center w-full h-full">
         <div>
           <div>
-            <span id="num" className="text-2xl sm:text-4xl font-bold text-[#A27B5C]">
+            <span id="num" className="text-xl sm:text-3xl font-bold text-[#A27B5C]">
               02.
             </span>
-            <span></span>
-            <p className="text-[#DCD7C9] text-2xl sm:text-4xl font-bold inline ">
+            <span> </span>
+            <p className="text-[#DCD7C9] text-xl sm:text-3xl font-bold inline ">
               Experience
             </p>
           </div>
-          <div className="sm:mt-[2vh] mt-0 p-4 rounded-md duration-[500ms] w-[100%] h-[550px] grid grid-row-3 sm:grid-cols-3 gap-[25px] text-center py-8">
+          <div className="sm:mt-[2vh] mt-0 p-4 rounded-md duration-[500ms] w-[100%] h-[550px] grid grid-row-3 sm:grid-cols-3 gap-[15px] text-center py-8">
             <div className="hover:-translate-y-[10px] duration-[250ms] shadow-md shadow-black ease-linear border-[#A27B5C] border-[1px] hover:animate-none hover:shadow-lg rounded-md hover:shadow-black">
               <p className="sm:text-2xl text-[17px] text-[#DCD7C9] pt-[3vh] sm:pt-[10vh] font-bold overflow-hidden">
                 <span className="">Accomplished</span></p>
@@ -29,7 +29,7 @@ const Experience = () => {
               </ul>
             </div>
             <div className="hover:-translate-y-[10px] duration-[250ms] ease-linear shadow-black shadow-md border-[#A27B5C] border-[1px] hover:animate-none hover:shadow-lg rounded-md hover:shadow-black">
-              <p className="sm:text-2xl text-[17px] text-[#DCD7C9] pt-[3vh] sm:pt-[10vh] font-bold overflow-hidden">
+              <p className="sm:text-2xl text-[16px] text-[#DCD7C9] pt-[3vh] sm:pt-[10vh] font-bold overflow-hidden">
                 <span className="">Focused On</span></p>
               <ul className="sm:pt-[2rem] pt-[1rem]">
                 <li className="cursor-default py-1"><span className="text-[#A27B5C]">▹</span>Learning react.js </li>
