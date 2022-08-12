@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-full h-screen bg-[#2C3639] text-[#BECACE] pt-[1rem] sm:py-[25vh]"
+      className="w-full h-full bg-[#2C3639] text-[#BECACE] "
     >
       <link rel="stylesheet" href="index.css" />
       <div className="flex flex-col justify-center items-center w-full h-full">
@@ -47,29 +47,29 @@ const About = () => {
             <p className="py-4 text-lg font-bold text-[#DCD7C9]">
               Current Techonologies I am working with:{" "}
             </p>
-            <ul className="grid grid-cols-4 pb-[2.3rem]">
+            <ul className="grid grid-rows-1 grid-cols-4 sm:grid-cols-4 pb-[2.3rem]">
               <div>
-                <li className="text-[#A27B5C] text-[13px] sm:text-[1em] cursor-default">
+                <li className="text-[#A27B5C] text-[12px] sm:text-[1em] cursor-default">
                   ▹<span className="text-[#DCD7C9] "> Python</span>
                 </li>
               </div>
-              <div></div>
-              <li className="text-[#A27B5C] text-[13px] sm:text-[1em] cursor-default">
-                ▹<span className="text-[#DCD7C9]"> React.js</span>
+              <div className="hidden sm:flex"></div>
+              <li className="text-[#A27B5C] text-[12px] sm:text-[1em] cursor-default">
+                ▹<span className="text-[#DCD7C9]"> React</span>
               </li>
-              <div></div>
-              <li className="text-[#A27B5C] text-[13px] sm:text-[1em] cursor-default">
+              <div className="hidden sm:flex"></div>
+              <li className="text-[#A27B5C] text-[12px] sm:text-[1em] cursor-default">
                 ▹<span className="text-[#DCD7C9]"> Java</span>
               </li>
-              <div></div>
-              <li className="text-[#A27B5C] text-[13px] sm:text-[1em] cursor-default">
-                ▹<span className="text-[#DCD7C9] "> Node.js</span>
+              <div className="hidden sm:flex"></div>
+              <li className="text-[#A27B5C] text-[12px] sm:text-[1em] cursor-default">
+                ▹<span className="text-[#DCD7C9] "> Node</span>
               </li>
             </ul>
           </div>
-          <div className="pl-[4rem] pt-[5vh]">
+          <div className="pl-[20%] sm:pl-[4vw] pt-[0] sm:pt-[5vh]">
             <img
-              className="flex w-[250px] rounded-lg "
+              className="flex w-[200px]  sm:w-[250px] rounded-md border-opacity-50 border-[2px] border-[#A27B5C] "
               src={PFP}
               alt="profilepicture"
             />

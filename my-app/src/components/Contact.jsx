@@ -13,7 +13,7 @@ const Contact = () => {
             Let's Chat
           </p>
           <p className="text-[#DCD7C9] font-bold text-3xl sm:text-5xl py-[15px]">Say Hello</p>
-          <p className=" sm:mx-[220px] text-[17px] py-[5px]">I am always looking for new oppurtunities to expand on my education and career. Whether you have questions or just want to drop by, I will try my best to get back to!  </p>
+          <p className=" sm:mx-[190px] text-[17px] py-[5px]">I am always looking for new oppurtunities to expand on my education and career. Whether you have questions or just want to drop by, I will try my best to get back to!  </p>
           <a className=""
             href="mailto:maitrasheehan@gmail.com"
             target="_blank"

@@ -3,9 +3,9 @@ import Resume from "../assets/Resume.pdf";
 
 const Home = () => {
   return (
-    <div id="home" className="w-full h-screen bg-[#2C3639]">
+    <div id="home" className="w-full h-[120vh] bg-[#2C3639]">
       <link rel="stylesheet" href="./index.css" />
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full py-[60vh]">
+      <div className=" md:pl-[20vw] pl-[12.5vw] px-8 flex flex-col justify-center h-full py-[60vh] sm:py-[40vh]">
         <p className="text-[#A27B5C] text-[20px] ">Hi, my name is</p>
         <h1 className="text-4xl md:text-6xl font-bold text-[#DCD7C9] py-3 pt-[1.5rem]">
           Sheehan Maitra.

@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <div
       id="experience"
-      className="w-full h-screen bg-[#2C3639] text-[#BECACE] pt-[10rem] sm:pb-[45vh] sm:pl-[5vw]"
+      className="w-full h-full bg-[#2C3639] text-[#BECACE] pt-[7rem] sm:pl-[10vw]"
     >
       <link rel="stylesheet" href="index.css" />
       <div className="max-w-[1000px] mx-auto p-3 flex flex-col justify-center w-full h-full">
