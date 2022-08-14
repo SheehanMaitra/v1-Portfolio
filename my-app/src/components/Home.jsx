@@ -26,7 +26,7 @@ const Home = () => {
             </a>
           </span>{" "}
           and I am interested in web design and artificial intelligence.
-          Currently, I am focused on learning more about Computer Science.
+          Currently, I am focused on learning more about artificial intelligence.
         </p>
         <div className="mb-[100px]">
           <a href={Resume} target="_blank" rel="noreferrer">

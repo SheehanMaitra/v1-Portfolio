@@ -38,7 +38,9 @@ const Footer = () => {
                     </li>
 
                 </ul>
-                <div><a className="flex text-center text-[#A27B5C] py-[1vh] text-[13px] content-center justify-center items-center self-center" href="/">Designed & Crafted by Sheehan Maitra</a></div>
+                <div><a className="flex text-center text-[#A27B5C] py-[1vh] text-[13px] hover:text-[#DCD7C9] duration-[400ms] content-center justify-center items-center self-center" href="https://github.com/SheehanMaitra/v1-Portfolio"
+                    target="_blank"
+                    rel="noreferrer">Developed by Sheehan Maitra</a></div>
             </div>
         </div >
     )

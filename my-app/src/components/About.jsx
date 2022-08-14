@@ -31,17 +31,12 @@ const About = () => {
               more about me!
             </p>
             <p className="text-[16px] py-6">
-              I am currently a senior interested in computer science. Growing
-              up, I always wondered how computers worked. At the age of 12, I
-              self taught myself HTML and CSS. I was able to make my first
-              webpage as a simple project. It was not my best work. Now, I am
-              able to make basic react.js websites.
+              I am a senior in high school interested in computer science. My interest in programming grew when I first opened up the inspect element page of google.
+              Tinkering with the lines of code, I thought I had become a hacker and was able to change the webpage. My hopes and dreams were crushed when I reloaded the page, but it taught me HTML and CSS.
             </p>
             <p className="text-[16px] py-1">
-              Today, I focus on two main areas of computer science. One of which
-              is artificial intelligence and the other is web design.
-              Self-teaching is my main method of learning and I hope to learn
-              more from peers, university and through myself{" "}
+              Today, I am focused on artificial intelligence, web development, and computer engineering.
+              I hope to learn from many people including my peers, teachers, and professors while I transition into university.{" "}
             </p>
 
             <p className="py-4 text-lg font-bold text-[#DCD7C9]">
@@ -49,20 +44,20 @@ const About = () => {
             </p>
             <ul className="grid grid-rows-1 grid-cols-4 sm:grid-cols-4 pb-[2.3rem]">
               <div>
-                <li className="text-[#A27B5C] text-[12px] sm:text-[1em] cursor-default">
+                <li className="text-[#A27B5C] text-[11px] sm:text-[15px] cursor-default">
                   ▹<span className="text-[#DCD7C9] "> Python</span>
                 </li>
               </div>
               <div className="hidden sm:flex"></div>
-              <li className="text-[#A27B5C] text-[12px] sm:text-[1em] cursor-default">
+              <li className="text-[#A27B5C] text-[11px] sm:text-[15px] cursor-default">
                 ▹<span className="text-[#DCD7C9]"> React</span>
               </li>
               <div className="hidden sm:flex"></div>
-              <li className="text-[#A27B5C] text-[12px] sm:text-[1em] cursor-default">
+              <li className="text-[#A27B5C] text-[11px] sm:text-[15px] cursor-default">
                 ▹<span className="text-[#DCD7C9]"> Java</span>
               </li>
               <div className="hidden sm:flex"></div>
-              <li className="text-[#A27B5C] text-[12px] sm:text-[1em] cursor-default">
+              <li className="text-[#A27B5C] text-[11px] sm:text-[15px] cursor-default">
                 ▹<span className="text-[#DCD7C9] "> Node</span>
               </li>
             </ul>
