@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-full h-full bg-[#2C3639] text-[#BECACE] "
+      className="w-full h-full bg-[#1B2430] text-[#51557E] "
     >
       <link rel="stylesheet" href="index.css" />
       <div className="flex flex-col justify-center items-center w-full h-full">
@@ -13,12 +13,12 @@ const About = () => {
           <div className="sm:text-left pb-8 pl-4">
             <span
               id="num"
-              className="text-xl sm:text-3xl font-bold inline text-[#A27B5C]"
+              className="text-xl sm:text-3xl font-bold inline text-[#816797]"
             >
               01.{""}
             </span>
             <span> </span>
-            <p className="text-[#DCD7C9] text-xl sm:text-3xl font-bold inline">
+            <p className="text-[#D6D5A8] text-xl sm:text-3xl font-bold inline">
               About Me
             </p>
           </div>
@@ -26,7 +26,7 @@ const About = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 px-3">
           <div>
-            <p className=" text-[#DCD7C9] text-xl sm:text-left sm:text-3xl font-bold">
+            <p className=" text-[#D6D5A8] text-xl sm:text-left sm:text-3xl font-bold">
               Hey! I am Sheehan. Nice to meet you. Explore this page to know
               more about me!
             </p>
@@ -39,32 +39,32 @@ const About = () => {
               I hope to learn from many people including my peers, teachers, and professors while I transition into university.{" "}
             </p>
 
-            <p className="py-4 text-lg font-bold text-[#DCD7C9]">
+            <p className="py-4 text-lg font-bold text-[#D6D5A8]">
               Current Techonologies I am working with:{" "}
             </p>
             <ul className="grid grid-rows-1 grid-cols-4 sm:grid-cols-4 pb-[2.3rem]">
               <div>
-                <li className="text-[#A27B5C] text-[11px] sm:text-[15px] cursor-default">
-                  ▹<span className="text-[#DCD7C9] "> Python</span>
+                <li className="text-[#816797] text-[11px] sm:text-[15px] cursor-default">
+                  ▹<span className="text-[#D6D5A8] "> Python</span>
                 </li>
               </div>
               <div className="hidden sm:flex"></div>
-              <li className="text-[#A27B5C] text-[11px] sm:text-[15px] cursor-default">
-                ▹<span className="text-[#DCD7C9]"> React</span>
+              <li className="text-[#816797] text-[11px] sm:text-[15px] cursor-default">
+                ▹<span className="text-[#D6D5A8]"> React</span>
               </li>
               <div className="hidden sm:flex"></div>
-              <li className="text-[#A27B5C] text-[11px] sm:text-[15px] cursor-default">
-                ▹<span className="text-[#DCD7C9]"> Java</span>
+              <li className="text-[#816797] text-[11px] sm:text-[15px] cursor-default">
+                ▹<span className="text-[#D6D5A8]"> Java</span>
               </li>
               <div className="hidden sm:flex"></div>
-              <li className="text-[#A27B5C] text-[11px] sm:text-[15px] cursor-default">
-                ▹<span className="text-[#DCD7C9] "> Node</span>
+              <li className="text-[#816797] text-[11px] sm:text-[15px] cursor-default">
+                ▹<span className="text-[#D6D5A8] "> Node</span>
               </li>
             </ul>
           </div>
           <div className="pl-[20%] sm:pl-[4vw] pt-[0] sm:pt-[5vh]">
             <img
-              className="flex w-[200px]  sm:w-[250px] rounded-md border-opacity-50 border-[2px] border-[#A27B5C] "
+              className="flex w-[200px] sm:w-[250px] rounded-md border-opacity-50 border-[2px] border-[#816797] "
               src={PFP}
               alt="profilepicture"
             />

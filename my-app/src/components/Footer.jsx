@@ -4,10 +4,10 @@ import { FiLinkedin } from 'react-icons/fi'
 import { HiOutlineMail } from 'react-icons/hi'
 const Footer = () => {
     return (
-        <div className=' w-full h-full  px-4 bg-[#2C3639] text-[#DCD7C9] text-[14px]'>
+        <div className=' w-full h-full  px-4 bg-[#1B2430] text-[#D6D5A8] text-[14px]'>
             <div className="">
                 <ul className='flex-row flex xl:hidden content-center justify-center items-center pb-[1vh]'>
-                    <li className="text-[#DCD7C9] hover:text-[#A27B5C] duration-[450ms] flex justify-center items-center ">
+                    <li className="text-[#D6D5A8] hover:text-[#816797] duration-[450ms] flex justify-center items-center ">
                         <a
                             href="https://github.com/SheehanMaitra"
                             target="_blank"
@@ -17,7 +17,7 @@ const Footer = () => {
                         </a>
                     </li>
                     <div></div>
-                    <li className="text-[#DCD7C9] hover:text-[#A27B5C] duration-[450ms] flex justify-center items-center ">
+                    <li className="text-[#D6D5A8] hover:text-[#816797] duration-[450ms] flex justify-center items-center ">
                         <a
                             href="https://www.linkedin.com/in/sheehanmaitra/"
                             target="_blank"
@@ -27,7 +27,7 @@ const Footer = () => {
                         </a>
                     </li>
                     <div></div>
-                    <li className="text-[#DCD7C9]  hover:text-[#A27B5C] duration-[450ms] flex justify-center items-center  ">
+                    <li className="text-[#D6D5A8]  hover:text-[#816797] duration-[450ms] flex justify-center items-center  ">
                         <a
                             href="mailto:maitrasheehan@gmail.com"
                             target="_blank"
@@ -38,7 +38,7 @@ const Footer = () => {
                     </li>
 
                 </ul>
-                <div><a className="flex text-center text-[#A27B5C] py-[1vh] text-[13px] hover:text-[#DCD7C9] duration-[400ms] content-center justify-center items-center self-center" href="https://github.com/SheehanMaitra/v1-Portfolio"
+                <div><a className="flex text-center text-[#816797] py-[1vh] text-[13px] hover:text-[#D6D5A8] duration-[400ms] content-center justify-center items-center self-center" href="https://github.com/SheehanMaitra/v1-Portfolio"
                     target="_blank"
                     rel="noreferrer">Developed by Sheehan Maitra</a></div>
             </div>
